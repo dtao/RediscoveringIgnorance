@@ -1,81 +1,23 @@
 ---
 title: The Moral Algorithm
 date: 2026-04-12
+tags: [philosophy, ethics]
 ---
 
-- In "The Moral Landscape" Sam Harris makes the argument for objective
-  morality, starting from the premise of imagining the worst possible
-  suffering for every conscious mind in existence, and pointing out the
-  obvious intuitive truth that this would be "worse" than the reality
-  we live in, objectively.
-- Derek Parfit also wrote about this in "Reasons and Persons" in which
-  he explored different ways of thinking about the future we should
-  strive towards - and wondered whether it was more important for more
-  souls to be happy, or for the souls that do exist to be as happy as
-  possible. (His "repugnant conclusion", that somehow a world with
-  near-infinite souls whose lives are barely worth living would be
-  "better" than one in which a far smaller number of souls were living
-  blissful, fulfilling lives, was intended as a counterargument to the
-  idea that it could be reduced to a simple formula like number of souls
-  times average quality of life per soul.)
-- These views of morality reflect a very common way of thinking about
-  it, which is that some possible worlds are better than others and
-  that morality in some sense points "towards" those better worlds, or
-  is itself the way to measure what is better and what is worse.
-- Maybe that is not the right way to think about morality. Maybe
-  morality is more like an algorithm, a way of responding to inputs
-  and determining actions, which is fundamentally inert without some
-  environment in which to operate (just like software - without an
-  operating environment, it is dead code).
-- By way of comparison, consider the forces we know in nature: gravity,
-  electromagnetism, strong and weak nuclear forces. We have a decent
-  understanding of how these forces work, which allows us to calculate
-  what will happen when matter and energy interact in different
-  configurations (and sometimes we can't easily calculate it, but we
-  can still observe it). These forces are not inherently pointing to a
-  desired end state, or a "should" - they work the way they work, which
-  creates a diversity of phenomena.
-- Let's get concrete: what might this "algorithm" consist of? What might
-  the "forces" of morality be? I can think of a few components. For one,
-  most of us seem to feel that it is moral to avoid causing suffering:
-  we don't think people should hurt other people. (And some of us feel
-  people also shouldn't hurt animals, or any conscious living things.)
-  We also value survival, preservation of life - which can sometimes
-  conflict with avoiding suffering. We value connectedness - reciprocal
-  relationships among people. And many of us also share some notion of
-  justice, as well as forgiveness - addressing wrongdoing, whether by
-  punishment or atonement (or both).
-- I think this is a useful way of thinking about morality: that it
-  consists of components, like these (possibly more, possibly
-  different), which can play different roles and have different
-  strengths depending on the context. For example, in the same way that
-  the strong nuclear force is easily the strongest force BUT only at
-  subatomic scales, maybe the "avoid suffering" moral component is very
-  strong in localized cases when levels of suffering are high; and just
-  as gravity plays a prominent role at cosmic scales but is
-  significantly weaker than the electromagnetic force at smaller
-  scales, maybe the moral component of "love for all of humankind" is
-  similarly broad and powerful but less noticeable in day-to-day
-  interactions among people.
-- In response to Harris, the "worst possible suffering for all conscious
-  beings" thought experiment could be considered a hypothetical state
-  of existence that would not occur naturally, but in which the moral
-  algorithm would rapidly push those conscious beings (being the
-  substrate in which morality operates) towards putting an end to their
-  suffering as quickly as possible. As for Parfit, his repugnant
-  conclusion could also be considered an artificial state where the
-  moral algorithm would not lead from the current state of reality, but
-  if it were to occur then the algorithm would push all conscious
-  beings to start working on improving their quality of life
-  (rather than create more life).
-- I think of these imagined worlds as a bit like what you get if you
-  push two magnets together with their north poles facing each other:
-  this is an artificial scenario, not a state those magnets would enter
-  naturally; but understanding how magnetism works allows us to
-  accurately predict that IF you do this, the magnets will forcefully
-  repel each other and move apart once you let go.
-- This is not a claim about what morality "really is" in a fundamental
-  sense, but considering morality in this way does provide some
-  possible illumination in scenarios like the ones presented by Harris
-  and Parfit that can otherwise cause significant doubt or concern. For
-  that reason I personally find it to be a helpful lens.
+We tend to think of morality as a kind of compass. Some possible worlds are better than others---more just, less painful, more full of flourishing---and morality, on this view, is what points us toward those better worlds, or what we use to measure how close to them we are.
+
+Sam Harris made this case with characteristic force in *The Moral Landscape*, grounding moral judgment in the intuition that a world of maximum suffering for every conscious being would be obviously "worse" than the one we inhabit.
+
+Derek Parfit explored the same terrain with greater ambivalence in *Reasons and Persons*, asking whether a world of near-infinite barely-satisfied souls could be "better" than a much smaller world of genuinely thriving ones---and arriving, reluctantly, at the conclusion that it could. He called it the Repugnant Conclusion, and intended it as a challenge to any simple formula for moral arithmetic.
+
+Both thinkers shared the same basic assumption: that morality has a direction. That it points somewhere.
+
+Maybe it doesn't. Maybe morality is less like a compass and more like an algorithm---a set of processes that respond to inputs and generate outputs, without an ideal destination. Software without a runtime is dead code. Morality without conscious beings to enact it is the same: inert, directionless, waiting.
+
+Consider the forces we know in nature. Gravity, electromagnetism, the strong and weak nuclear forces — none of them are trying to achieve anything. They operate according to their nature, and from that operation emerges everything from the spin of galaxies to the warmth of a candle flame. They do not point toward a preferred end state. They simply work.
+
+What if morality works the same way? We might think of its components as something like moral forces: the impulse to reduce suffering, the drive to preserve life, the pull toward connection and reciprocity, the weight of justice, the release of forgiveness. Each operates at its own scale and with its own strength — much as the strong nuclear force dominates at subatomic distances while gravity governs at cosmic ones. The aversion to causing immediate, visible pain may be overwhelming in the presence of someone suffering in front of us; the broader love for all of humankind may be quieter and more diffuse, but no less real.
+
+Viewed this way, the thought experiments of Harris and Parfit look less like logical puzzles and more like artificial physical configurations — the kind you get when you press two magnets together north-to-north. Such states don't arise naturally. But understanding how the forces work lets us predict exactly what happens if they do: the magnets repel each other and spring apart the moment you let go. A world of maximal suffering would rapidly produce conscious beings driven, at every level, to end that suffering. A world of barely-living multitudes would produce beings urgently compelled toward quality over quantity. The algorithm pushes back.
+
+This is not a claim about what morality fundamentally *is*. It may be something else entirely — divine, emergent, illusory. But thinking of it as a set of forces rather than a compass offers a way through some of philosophy's most vertiginous terrain. Sometimes the most useful thing a lens can do is keep you from falling.
