@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} — {{ site.title }}{% endblock %}
+
+{% block content %}
+<article>
+  <header>
+    <h1>{{ article.title }}</h1>
+    <p>
+      {% if article.date %}<time datetime="{{ article.date }}">{{ article.date }}</time>{% endif %}
+      {% if article.tags %}
+      <span class="tags">{% for tag in article.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</span>
+      {% endif %}
+    </p>
+  </header>
+  {{ article.content | safe }}
+</article>
+<nav aria-label="Site navigation">
+  <a href="{{ root }}/index.html">← Home</a>
+</nav>
+{% endblock %}

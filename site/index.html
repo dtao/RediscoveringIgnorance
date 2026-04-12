@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% for article in recent %}
+  <article>
+    <header>
+      <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+      <p>
+        {% if article.date %}<time datetime="{{ article.date }}">{{ article.date }}</time>{% endif %}
+        {% if article.tags %}
+        <span class="tags">{% for tag in article.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</span>
+        {% endif %}
+      </p>
+    </header>
+    {{ article.excerpt | safe }}
+    <a class="read-more" href="{{ article.url }}">Read more →</a>
+  </article>
+  {% else %}
+  <p>No articles yet.</p>
+  {% endfor %}
+{% endblock %}
