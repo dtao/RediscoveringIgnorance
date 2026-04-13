@@ -17,7 +17,7 @@ CONTENT_DIR = Path("content")
 SITE_DIR    = Path("site")
 BUILD_DIR   = Path("build")
 
-_md = markdown.Markdown(extensions=["fenced_code", "tables"])
+_md = markdown.Markdown(extensions=["fenced_code", "smarty", "tables"])
 
 
 def parse_frontmatter(text: str) -> tuple[dict, str]:
