@@ -11,7 +11,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  background: var(--bg);
+  background: var(--bg) url('tree.svg') center center / cover no-repeat;
   color: var(--text);
   font: 1.05rem/1.75 Georgia, "Times New Roman", serif;
   padding: 1.5rem 1rem;

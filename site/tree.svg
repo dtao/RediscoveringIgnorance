@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ece5d5"/>
+      <stop offset="100%" stop-color="#e2d8c2"/>
+    </linearGradient>
+    <linearGradient id="gnd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfc098"/>
+      <stop offset="100%" stop-color="#c4b285"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+
+  <!-- Ground -->
+  <ellipse cx="480" cy="860" rx="980" ry="300" fill="url(#gnd)"/>
+
+  <!-- Tree: trunk, branches, and leaf clusters all blurred together -->
+  <g filter="url(#blur)" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Trunk -->
+    <line x1="188" y1="800" x2="194" y2="450" stroke="#7a5228" stroke-width="42" fill="none"/>
+
+    <!-- Root flare -->
+    <line x1="188" y1="790" x2="148" y2="772" stroke="#7a5228" stroke-width="20" fill="none"/>
+    <line x1="188" y1="790" x2="225" y2="778" stroke="#7a5228" stroke-width="18" fill="none"/>
+
+    <!-- === DOMINANT RIGHT-SWEEPING BRANCH (toward center) === -->
+    <line x1="194" y1="450" x2="355" y2="358" stroke="#7a5228" stroke-width="28" fill="none"/>
+    <line x1="355" y1="358" x2="488" y2="295" stroke="#7a5228" stroke-width="20" fill="none"/>
+    <line x1="488" y1="295" x2="578" y2="250" stroke="#7a5228" stroke-width="13" fill="none"/>
+    <line x1="578" y1="250" x2="638" y2="220" stroke="#7a5228" stroke-width="8" fill="none"/>
+    <line x1="638" y1="220" x2="672" y2="198" stroke="#7a5228" stroke-width="5" fill="none"/>
+    <line x1="638" y1="220" x2="655" y2="192" stroke="#7a5228" stroke-width="4" fill="none"/>
+
+    <!-- Sub-branch off main, angling up-right -->
+    <line x1="488" y1="295" x2="528" y2="238" stroke="#7a5228" stroke-width="10" fill="none"/>
+    <line x1="528" y1="238" x2="558" y2="196" stroke="#7a5228" stroke-width="6" fill="none"/>
+    <line x1="558" y1="196" x2="578" y2="168" stroke="#7a5228" stroke-width="4" fill="none"/>
+    <line x1="558" y1="196" x2="545" y2="162" stroke="#7a5228" stroke-width="3" fill="none"/>
+
+    <!-- Sub-branch off main, mid sweep -->
+    <line x1="355" y1="358" x2="398" y2="295" stroke="#7a5228" stroke-width="14" fill="none"/>
+    <line x1="398" y1="295" x2="448" y2="242" stroke="#7a5228" stroke-width="9" fill="none"/>
+    <line x1="448" y1="242" x2="478" y2="205" stroke="#7a5228" stroke-width="5" fill="none"/>
+    <line x1="448" y1="242" x2="428" y2="200" stroke="#7a5228" stroke-width="5" fill="none"/>
+
+    <!-- === SECONDARY UPWARD BRANCH === -->
+    <line x1="194" y1="450" x2="208" y2="302" stroke="#7a5228" stroke-width="20" fill="none"/>
+    <line x1="208" y1="302" x2="222" y2="198" stroke="#7a5228" stroke-width="12" fill="none"/>
+    <line x1="222" y1="198" x2="208" y2="140" stroke="#7a5228" stroke-width="6" fill="none"/>
+    <line x1="222" y1="198" x2="258" y2="152" stroke="#7a5228" stroke-width="6" fill="none"/>
+    <line x1="258" y1="152" x2="272" y2="118" stroke="#7a5228" stroke-width="4" fill="none"/>
+
+    <!-- Left sub off upward branch -->
+    <line x1="208" y1="302" x2="168" y2="248" stroke="#7a5228" stroke-width="9" fill="none"/>
+    <line x1="168" y1="248" x2="142" y2="202" stroke="#7a5228" stroke-width="5" fill="none"/>
+    <line x1="142" y1="202" x2="125" y2="170" stroke="#7a5228" stroke-width="3" fill="none"/>
+    <line x1="142" y1="202" x2="152" y2="165" stroke="#7a5228" stroke-width="3" fill="none"/>
+
+    <!-- === SMALL LEFT BRANCH (shorter, subordinate) === -->
+    <line x1="192" y1="538" x2="140" y2="465" stroke="#7a5228" stroke-width="15" fill="none"/>
+    <line x1="140" y1="465" x2="100" y2="412" stroke="#7a5228" stroke-width="9" fill="none"/>
+    <line x1="100" y1="412" x2="74"  y2="370" stroke="#7a5228" stroke-width="5" fill="none"/>
+    <line x1="100" y1="412" x2="82"  y2="375" stroke="#7a5228" stroke-width="4" fill="none"/>
+
+    <!-- === LEAF CLUSTERS (sparse, autumn) === -->
+    <!-- Far right tip -->
+    <ellipse cx="668" cy="196" rx="42" ry="34" fill="#c47018"/>
+    <ellipse cx="650" cy="185" rx="30" ry="26" fill="#d49828"/>
+    <!-- Main sweep, upper -->
+    <ellipse cx="552" cy="192" rx="38" ry="30" fill="#b85c18"/>
+    <ellipse cx="575" cy="172" rx="28" ry="24" fill="#d09030"/>
+    <!-- Mid-sweep cluster -->
+    <ellipse cx="475" cy="203" rx="36" ry="28" fill="#c87828"/>
+    <ellipse cx="445" cy="196" rx="26" ry="22" fill="#d4a028"/>
+    <ellipse cx="428" cy="195" rx="20" ry="18" fill="#b86020"/>
+    <!-- Upper branch tip -->
+    <ellipse cx="205" cy="138" rx="30" ry="24" fill="#c87020"/>
+    <ellipse cx="262" cy="148" rx="32" ry="26" fill="#d09030"/>
+    <ellipse cx="275" cy="116" rx="22" ry="18" fill="#c47820"/>
+    <!-- Left sub-branch tip -->
+    <ellipse cx="130" cy="168" rx="28" ry="22" fill="#b86020"/>
+    <!-- Left branch tip -->
+    <ellipse cx="74"  cy="366" rx="26" ry="20" fill="#c07020"/>
+
+    <!-- Fallen leaves near base -->
+    <ellipse cx="258" cy="742" rx="18" ry="12" fill="#c07020" opacity="0.65"/>
+    <ellipse cx="185" cy="758" rx="15" ry="10" fill="#b85818" opacity="0.55"/>
+    <ellipse cx="320" cy="752" rx="16" ry="11" fill="#d09028" opacity="0.55"/>
+    <ellipse cx="135" cy="735" rx="13" ry="9"  fill="#c87828" opacity="0.50"/>
+    <ellipse cx="365" cy="760" rx="12" ry="9"  fill="#c47020" opacity="0.45"/>
+
+  </g>
+</svg>
