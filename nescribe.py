@@ -60,9 +60,9 @@ def build():
     BUILD_DIR.mkdir()
     (BUILD_DIR / "articles").mkdir()
 
-    for asset in SITE_DIR.iterdir():
-        if asset.is_file() and asset.suffix not in ('.html', '.yaml'):
-            shutil.copy(asset, BUILD_DIR / asset.name)
+    style_src = SITE_DIR / "style.css"
+    if style_src.exists():
+        shutil.copy(style_src, BUILD_DIR / "style.css")
 
     env = Environment(loader=FileSystemLoader(str(SITE_DIR)), autoescape=True)
 
