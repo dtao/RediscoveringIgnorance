@@ -1,15 +1,27 @@
 ---
 title: You are not a set of tasks
 date: 2026-04-15
+tags: [technology, identity]
 ---
 
-1. I know a lot of people are nervous these days - AI is taking our jobs, replacing us
-2. We've seen this before (example: human calculators)
-3. Sometimes the meaning of what it means to be something changes over time - physicists used to spend a lot of their time and energy on calculation, but when that went away we didn't stop doing physics
-4. Also, there have been times when computers exceeded humans at something, and yet we still value when humans do the thing. Examples: manufacturing (consider premium on "handmade"), chess, or e-sports
-5. But what if the job did go away? What happened to those people? Did they disappear? Did they fade from society, fall into despair, live the rest of their lives as directionless paupers?
-6. None of us wants to be a "cog in a machine". We're not. I can *do* that, but it's not who I *am*.
-7. The more you think of yourself as someone who does a certain job - who performs a specific set of tasks - the more you pigeonhole yourself in a way that is vulnerable to being replaced by automation. Because that's what happens to tasks: they get automated. In contrast, the more you think of yourself in terms of the responsibility you carry, the creativity you wield, the potential you have, and the unique perspective you bring, the more obvious it becomes you can never be replaced because there is no one else like you.
-8. Remember there was a time before you knew how to write code. Who were you, then? What got you doing that in the first place? Was it just a way to get a job? If so, good news: you can do that again! Or was it something that excited you, learning how to use a new tool to solve problems? If so, you can do that again too.
-9. The way I see it: today, we all have a role to play, and hopefully we're doing our best. As the game evolves, the roles may change; we may invent new positions, change the meanings of them, rebalance how teams are organized. If the games continues to be fun for you and you're still good at it, great. If it stops being fun... there are more games out there. You can play or not play.
-10. The role isn't who you are. The tasks you do today don't define you; they never did.
+Before there were computers, there were computers. People, mostly women, who spent their working days performing calculations by hand---multiplying, dividing, checking each other's arithmetic, passing columns of figures down a chain of desks. They were called computers because that was their job. To compute.
+
+When machines took over that work, the humans who had done it didn't vanish. They became something else, or they became more fully what they had always been. The physicists who had spent half their time on calculation could spend it on physics. The mathematicians returned to mathematics. The profession didn't end; it evolved, shedding the tasks that machines could handle and revealing the work underneath that they could not.
+
+We are living through something similar now. The anxiety is real and understandable---I hear it in conversations, read it in countless articles. But I think it often rests on a confusion: a confusion between what someone *does* and who they *are*.
+
+Consider how we relate to human skill even when machines have surpassed it. Computers have been stronger than the best chess grandmasters for decades. And yet grandmaster chess is still played, still watched, still admired---not because it produces the optimal moves, but because a human is making them. The same logic drives the premium on handmade goods, the appeal of live performance, the rise of e-sports as a spectator phenomenon. When we strip away the pretense that we only care about outcomes, we find that we care deeply about the human being the agent of them.
+
+Which suggests that the question "will my job be automated?" is less interesting than it first appears. The more important question is: have you been thinking of yourself as a set of tasks?
+
+I have met people---smart, capable, dedicated people---who seem to experience themselves primarily this way. They know the tools they use and the workflows they follow and the outputs they are responsible for. They have built an identity around a specific configuration of responsibilities. And when that configuration is threatened, they are threatened.
+
+None of us, I think, actually *wants* to be a cog in a machine. But some of us have accidentally become one in our own minds. I can perform a set of tasks---I do, every day. But that is not who I am, and it never was.
+
+Here is a question worth sitting with: who were you before you knew how to do what you do now? Before you wrote your first line of code, or managed your first project, or learned whatever it is your work currently runs on---who were you then? What got you started down this path in the first place? If the honest answer is *it seemed like a good way to make a living*, that is fine; you found something that worked, and you can find something again. But for most people I know, the honest answer is something more like: *I liked solving problems. I was curious about how things worked. I wanted to build something.* If that is your answer, you have not lost anything. The curiosity and the drive are still there. They were always the point.
+
+The tasks change. They always have. The meaning of what it means to be a software engineer, or a writer, or a scientist, has shifted before and will shift again. We will invent new roles, retire old ones, redraw the lines between them---as we always have. If the work is still good and still yours, do it well. If it stops being something you want to do, you are not obligated to keep doing it. There are other games to play.
+
+But don't confuse the game with who you are. The tasks you perform today don't define you.
+
+They never did.
