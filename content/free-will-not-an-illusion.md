@@ -1,5 +1,5 @@
 ---
-title: Free Will is Not an Illusion
+title: Free will is not an illusion
 date: 2026-04-13
 tags: [philosophy, identity]
 ---
