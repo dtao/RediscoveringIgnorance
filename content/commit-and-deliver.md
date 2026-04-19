@@ -1,6 +1,6 @@
 ---
-title: Don't "underpromise", just commit and deliver
-date: 2026-04-17
+title: Don't underpromise, just commit and deliver
+date: 2026-04-19
 tags: [philosophy, work]
 ---
 
