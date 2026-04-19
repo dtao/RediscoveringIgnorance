@@ -4,21 +4,21 @@ date: 2026-04-17
 tags: [philosophy, work]
 ---
 
-We've all heard this stated as if it's the key success: underpromise and overdeliver. Set expectations low, exceed them, and you'll always come out ahead. I've heard it many times, from many people, particularly in engineering. It is close to conventional wisdom at this point.
+We've all heard this stated as if it's the key to success: underpromise and overdeliver. Set expectations low, exceed them, and you'll always come out ahead.
 
-There's a version of this that works. When you're genuinely uncertain about an outcome, erring toward caution makes sense---you account for the unknowns, build in some margin, and sometimes you beat your conservative estimate. As an occasional tactic, it produces exactly the effect advertised: a pleasant surprise, a good impression, everyone satisfied.
+There's a version of this that works. When you're genuinely unfamiliar with the domain or uncertain about what's possible, erring toward caution makes sense---you account for the unknowns, build in some margin, and sometimes you beat your conservative estimate. As an occasional tactic, it produces exactly the effect advertised: a pleasant surprise, a good impression, everyone satisfied.
 
 The problem comes when it becomes your default policy.
 
-When you make a habit of underpromising, it affects how you approach the work. The gap between what you've promised and what you once thought you could actually do becomes a safety net---and safety nets, once present, get used. Not always, not consciously, but the knowledge that it's there saps your conviction. You commit to the modest result---you commit to the safety net.
+When you make a habit of underpromising, it affects how you approach the work. The gap between what you've promised and what you once thought you could actually do becomes a safety net---and safety nets eventually get used. Not always, not consciously, but the knowledge that it's there saps your conviction. By committing to the modest result, you privately commit to the safety net.
 
-That's not the end of the story. All too often, the modest result turns out to be not so modest after all; the safety net was smaller than it looked; you miss. And you tell yourself this is fine, that things slip, that they'll understand. You decide to be even _more_ modest in the future---a safety net for the safety net.
+Then all too often, the modest result turns out to be not so modest after all. The safety net doesn't catch you; you bounce off and hit the floor. Of course, this isn't the end of the world: we all understand that sometimes things slip. The problem is that you weren't aiming high to begin with. And worst of all is when you decide to be even _more_ modest in the future---a safety net for the safety net.
 
 Try applying the same logic to other domains. Imagine a friend saying on their wedding day: "I'll do my best to stay with you for at least a few years." Or a coach walking into a new season: "Our goal is to get a few wins." Or a founder pitching investors: "We're hoping to raise a couple of rounds before we probably have to close shop." In any of these contexts, the underpromise doesn't sound like wisdom. It sounds like someone who has already started looking for the exit.
 
-What these examples reveal is the hidden assumption in "underpromise, overdeliver": that the point of a commitment is to avoid disappointment, not to actually achieve something.
+What these examples reveal is the true optimization of "underpromise, overdeliver": not to achieve something great or create delight, but to avoid disappointment.
 
-Disappointment is still possible. In fact it is inevitable. That is why making artificially modest promises doesn't actually help you. A track record of sometimes hitting modest goals does not set anyone apart.
+This doesn't work even on its own terms. Disappointment is inevitable---you will miss sometimes no matter how conservatively you've promised. And a track record of hitting modest goals doesn't set anyone apart.
 
 The alternative is simple. Ask yourself "How much can I achieve if I truly do my best?"---not what seems safe, not what gives you cover, but what your honest best looks like. Commit to that, then do everything you can to deliver it. If you do this, how much more do you think you could deliver over the course of a year? A career? A lifetime?
 
