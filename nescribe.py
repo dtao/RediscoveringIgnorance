@@ -72,15 +72,16 @@ def parse_article(path: Path) -> dict:
     meta, body = parse_frontmatter(path.read_text(encoding="utf-8"))
     body = body.strip()
     return {
-        "title":   meta.get("title", path.stem.replace("-", " ").title()),
-        "date":    meta.get("date"),
-        "tags":    meta.get("tags") or [],
-        "kind":    meta.get("kind"),
-        "book":    meta.get("book"),
-        "slug":    path.stem,
-        "content": render_md(body),
-        "excerpt": render_md(body.split("\n\n")[0]),
-        "url":     f"articles/{path.stem}.html",
+        "title":     meta.get("title", path.stem.replace("-", " ").title()),
+        "date":      meta.get("date"),
+        "tags":      meta.get("tags") or [],
+        "kind":      meta.get("kind"),
+        "book":      meta.get("book"),
+        "published": meta.get("published", True),
+        "slug":      path.stem,
+        "content":   render_md(body),
+        "excerpt":   render_md(body.split("\n\n")[0]),
+        "url":       f"articles/{path.stem}.html",
     }
 
 
@@ -106,7 +107,7 @@ def build():
 
     env = Environment(loader=FileSystemLoader(str(SITE_DIR)), autoescape=True)
 
-    articles = [parse_article(p) for p in CONTENT_DIR.glob("*.md")]
+    articles = [a for a in (parse_article(p) for p in CONTENT_DIR.glob("*.md")) if a["published"]]
     articles.sort(key=lambda a: (a["date"] is not None, a["date"]), reverse=True)
 
     base_ctx = dict(site=config, articles=articles)
