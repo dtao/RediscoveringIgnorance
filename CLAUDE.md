@@ -29,10 +29,22 @@ When drafting or editing articles, use the existing pieces in `content/` as the 
 
 When given an outline or rough notes, you don't need to follow the sequence exactly. Look for opportunities to streamline structure and improve flow, but preserve the author's core ideas and voice.
 
+## Book reports from transcripts
+
+Book reports are a distinct kind of article: a record of knowledge I've consumed that has shaped my thinking, as opposed to my own ideas. The raw source material often lives in `transcripts/` — conversations I've had with other LLMs in which I talk through a book from memory. To turn one into an article:
+
+- Treat the transcript as source material, not a script. My half carries the substance; the other LLM is usually just prompting me forward. Pull the book summary and my reflections from what I actually said.
+- Skip anything that isn't really about the book (e.g. the other model's book recommendations, unrelated tangents).
+- Write a single unified piece in my voice — a summary of what the book argues, woven together with my reflections on it. Follow every rule in "Writing articles" above (narrative opening, central analogy, self-implication, "to clarify" move, no subheadings, em dashes). The book's own central metaphor often makes a natural analogy for the piece.
+- If I expressed genuine interest in particular follow-up books during the conversation, a short closing note like "Other books I'm considering reading after this one are…" is welcome. Only include books I actually responded positively to; skip the ones I brushed off.
+- Use the book-report frontmatter (see below) so the site renders it as a book report rather than a regular article.
+
 ## Site structure
 
 - `content/*.md` — article source files (Markdown + YAML frontmatter)
+- `transcripts/*.md` — raw conversation transcripts, often the source material for book reports
 - `site/` — Jinja2 templates, CSS, config
+- `images/` — inline article images, copied to `build/images/` at build time
 - `build/` — generated output (not committed)
 - `nescribe.py` — static site generator; run with `python nescribe.py`
 
@@ -47,3 +59,21 @@ tags: [tag1, tag2]
 ```
 
 Tags used so far: `philosophy`, `ethics`, `identity`
+
+### Content kinds
+
+`kind` is an optional frontmatter field that separates content types (things I've consumed vs. my own ideas). Currently the only value in use is `book-report`, which also takes a nested `book` object:
+
+```yaml
+---
+title: The Master and His Emissary
+date: 2026-04-23
+tags: [philosophy]
+kind: book-report
+book:
+  title: The Master and His Emissary
+  author: Iain McGilchrist
+---
+```
+
+The article `title` and `book.title` can differ — the article title is free to be its own declarative framing, while `book.title` and `book.author` are the canonical metadata for the book being discussed.
