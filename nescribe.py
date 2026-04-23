@@ -15,6 +15,7 @@ from jinja2 import Environment, FileSystemLoader
 
 CONTENT_DIR = Path("content")
 SITE_DIR    = Path("site")
+IMAGES_DIR  = Path("images")
 BUILD_DIR   = Path("build")
 
 _md = markdown.Markdown(extensions=["fenced_code", "smarty", "tables"])
@@ -60,9 +61,14 @@ def build():
     BUILD_DIR.mkdir()
     (BUILD_DIR / "articles").mkdir()
 
-    style_src = SITE_DIR / "style.css"
-    if style_src.exists():
-        shutil.copy(style_src, BUILD_DIR / "style.css")
+    for asset in SITE_DIR.rglob("*"):
+        if asset.is_file() and asset.suffix not in ('.html', '.yaml'):
+            dest = BUILD_DIR / asset.relative_to(SITE_DIR)
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(asset, dest)
+
+    if IMAGES_DIR.exists():
+        shutil.copytree(IMAGES_DIR, BUILD_DIR / "images")
 
     env = Environment(loader=FileSystemLoader(str(SITE_DIR)), autoescape=True)
 

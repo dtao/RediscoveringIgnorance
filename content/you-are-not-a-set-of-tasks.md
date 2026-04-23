@@ -6,6 +6,8 @@ tags: [technology, identity]
 
 Before there were computers, there were computers. People, mostly women, who spent their working days performing calculations by hand---multiplying, dividing, checking each other's arithmetic, passing columns of figures down a chain of desks. They were called computers because that was their job. To compute.
 
+![Photo of human computers](/images/human-computers.webp)
+
 When machines took over that work with the invention of the calculator, those humans didn't vanish. They became something else. Meanwhile, the physicists who had spent half their time on calculation found themselves with more time to form new hypotheses, design new experiments, and test new ideas. A similar evolution occurred among mathematicians, engineers, and countless other careers.
 
 Some professions (like the computer) effectively ended, as happened with blacksmiths and cobblers. Others evolved as humans stopped performing the tasks that machines could reliably handle, and moved to new areas that were previously inaccessible to them.
