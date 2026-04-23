@@ -1,0 +1,26 @@
+---
+title: The Beginning of Infinity
+date: 2026-04-19
+tags: [philosophy]
+kind: book-report
+book:
+  title: The Beginning of Infinity
+  author: David Deutsch
+published: false
+---
+
+I read David Deutsch's *The Beginning of Infinity* years ago, and what's stayed with me isn't quite what you'd expect from a book with a thesis that large. The thesis is certainly big: conscious problem-solvers---us---have kicked off an unbounded process of knowledge creation, and the universe itself is different for our being in it. But what actually lingers, all this time later, is less the backbone and more the side observations sprinkled throughout. It's a sprawling book, more like a long meandering novel with subplots than a single argument, and the subplots have turned out to matter as much as the main story.
+
+The backbone is worth stating plainly, because it's unusual. For most of the universe's history, nothing existed that could form explanations of how things work and then deliberately apply those explanations to create more knowledge. Then, on a small planet, at one recent moment in cosmic time, that capacity appeared. And once it appeared, Deutsch argues, there was no ceiling on it. Each answer opens new questions. Each explanation unlocks ones we couldn't have asked before. He thinks of us as a catalyst, a kind of starting point---an expanding cone opening outward through whatever is left to understand. The title says it: this is the beginning of infinity.
+
+I find that framing easier to accept in principle than to feel in my bones. But even if you hold the thesis loosely, the book is worth the time for the tools it leaves you with.
+
+The one I've used most is a rule for choosing what to work on. Deutsch argues that when you're picking a problem, you should pick the hardest one you can find---and then, once you've committed to it, look for the easiest possible solution. Most people want both to be easy, and his point is that this is exactly backwards. Easy problems rarely move anything forward; the ones worth your life are the hard ones. But hard-problem-plus-hard-solution is not a virtue either---it usually just means the work is more complicated than it needs to be. The elegance is in aiming high at what you chase and staying relentlessly simple in how you chase it. I think about this rule often, and I've come to consider it one of the best pieces of working advice I've ever heard.
+
+Another idea that has quietly reshaped how I evaluate claims is his account of what makes an explanation good. His criterion: a good explanation is hard to vary without breaking it. Take the ancient story that thunder is the work of an angry god. You can swap out the god, change the grievance, rename the pantheon, and the story still "works." It accommodates any detail. Contrast that with Newtonian mechanics: change a single variable and the predictions fall apart. The power of Newton comes from how tightly constrained it is---how much it refuses to accommodate. An explanation that fits everything, Deutsch is saying, is really saying nothing. An explanation that could only fit this narrow slice of reality is saying something real about the world.
+
+The section I loved most, though I still can't fully place it in the larger argument, is his discussion of flowers. The usual evolutionary story goes that we find flowers beautiful because they signal something useful---fertility, resources, habitat. Deutsch flips it. Different species, with nothing in common, have independently evolved to be drawn to the same flowers. Bees, hummingbirds, humans. The most elegant explanation, he argues, is that beauty is something real out there, and that evolution has repeatedly produced the capacity to recognize it---while flowers have evolved to embody it. I'm not sure I'm fully bought in. But it's a bolder and more interesting claim than the reductive alternative, and it fits the book's broader posture that there are real things to be discovered, not just stories to be invented.
+
+The one part of the book I've never quite settled on is its mood. Deutsch is, by temperament or by argument---I couldn't always tell---relentlessly optimistic. He does not seem troubled by nuclear weapons, or climate collapse, or runaway AI. Every existential threat, in his framing, is just another hard problem. We've solved hard problems before; we'll solve these; the expansion continues. I can see how this falls out of the thesis: if conscious problem-solvers are the engine of an unbounded process, then of course we'll find our way through whatever is in front of us. But I've never been sure how much of that is a real argument and how much is Deutsch's personality showing through. On bad days it reads as optimism by assumption. On better days it reads as a refusal to grant despair the dignity of an argument, which is not the same thing as being naive.
+
+What I'm left with, mostly, is a handful of lenses I didn't know I needed. A way to pick problems. A test for explanations. A willingness to believe that some of the things we find beautiful are beautiful for reasons we haven't invented. And, more quietly, the thought that the cone of what we can understand may actually be as open-ended as Deutsch thinks it is---even if I'm not quite ready to be as cheerful about it as he is.
