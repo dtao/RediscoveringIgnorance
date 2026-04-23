@@ -51,10 +51,14 @@ article > header + p, article > header ~ p:first-of-type { margin-top: 0; }
 a { color: var(--accent); }
 a:hover { text-decoration: none; }
 
-time, .tags { color: var(--muted); font-family: system-ui, sans-serif; font-size: .85rem; }
+time, .tags, .kind { color: var(--muted); font-family: system-ui, sans-serif; font-size: .85rem; }
 
 .tag { margin-right: .5rem; }
 .tag::before { content: "#"; opacity: .6; }
+
+.kind { margin-right: .5rem; text-transform: uppercase; letter-spacing: .05em; font-size: .7rem; border: 1px solid var(--border); border-radius: 3px; padding: .1em .4em; }
+
+.book-meta { color: var(--muted); font-family: system-ui, sans-serif; font-size: .95rem; margin-top: .2rem; }
 
 .read-more { display: inline-block; margin-top: .75rem; font-family: system-ui, sans-serif; font-size: .9rem; }
 

@@ -2,6 +2,10 @@
 title: The Master and His Emissary
 date: 2026-04-23
 tags: [philosophy]
+kind: book-report
+book:
+  title: The Master and His Emissary
+  author: Iain McGilchrist
 ---
 
 Months after finishing Iain McGilchrist's *The Master and His Emissary*, I still catch myself narrating the world through it. A stranger reads a situation and insists on finding who's to blame: classic left hemisphere. Someone else hears the same story and starts asking how everyone got swept into it together: classic right hemisphere. I'll say the words out loud sometimes, half-joking, mostly because I can't stop seeing the dichotomy everywhere I look. A book hasn't done that to me in a long time.

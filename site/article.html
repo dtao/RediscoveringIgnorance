@@ -6,8 +6,15 @@
 <article>
   <header>
     <h1>{{ article.title }}</h1>
+    {% if article.book %}
+    <p class="book-meta">
+      {% if article.book.title and article.book.title != article.title %}<em>{{ article.book.title }}</em>{% endif %}
+      {% if article.book.author %}by {{ article.book.author }}{% endif %}
+    </p>
+    {% endif %}
     <p>
       {% if article.date %}<time datetime="{{ article.date }}">{{ article.date }}</time>{% endif %}
+      {% if article.kind %}<span class="kind">{{ article.kind.replace('-', ' ') }}</span>{% endif %}
       {% if article.tags %}
       <span class="tags">{% for tag in article.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</span>
       {% endif %}

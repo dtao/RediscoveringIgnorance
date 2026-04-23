@@ -7,6 +7,7 @@
       <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
       <p>
         {% if article.date %}<time datetime="{{ article.date }}">{{ article.date }}</time>{% endif %}
+        {% if article.kind %}<span class="kind">{{ article.kind.replace('-', ' ') }}</span>{% endif %}
         {% if article.tags %}
         <span class="tags">{% for tag in article.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</span>
         {% endif %}

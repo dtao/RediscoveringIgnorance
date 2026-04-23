@@ -75,6 +75,8 @@ def parse_article(path: Path) -> dict:
         "title":   meta.get("title", path.stem.replace("-", " ").title()),
         "date":    meta.get("date"),
         "tags":    meta.get("tags") or [],
+        "kind":    meta.get("kind"),
+        "book":    meta.get("book"),
         "slug":    path.stem,
         "content": render_md(body),
         "excerpt": render_md(body.split("\n\n")[0]),
