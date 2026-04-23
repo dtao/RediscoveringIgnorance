@@ -64,7 +64,11 @@ pre > code { padding: 0; background: none; }
 
 blockquote { border-left: 3px solid var(--border); padding-left: 1rem; color: var(--muted); margin: 1rem 0; }
 
-img { max-width: 100%; height: auto; display: block; margin: 1.1rem auto; }
+img { max-width: 100%; height: auto; display: block; margin: 1.1rem 0 auto; }
+
+figure { margin: 1.1rem 0; }
+figure img { margin: 0 auto; }
+figcaption { text-align: center; color: var(--muted); font-family: system-ui, sans-serif; font-size: .85rem; margin-top: .4rem; }
 
 ul, ol { padding-left: 1.4rem; margin-top: .9rem; }
 li + li { margin-top: .3rem; }
