@@ -15,6 +15,17 @@ body {
   color: var(--text);
   font: 1.05rem/1.75 Georgia, "Times New Roman", serif;
   padding: 1.5rem 1rem;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: -20px;
+  background: url('BG.jpg') center center / cover no-repeat;
+  opacity: 0.08;
+  /*filter: blur(4px);*/
+  z-index: -1;
 }
 
 body > header, main, body > footer { max-width: 40rem; margin-inline: auto; }
